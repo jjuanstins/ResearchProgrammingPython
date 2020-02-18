@@ -1,11 +1,15 @@
 
+Program findOrfs.py includes modules CommandLine and main.
+CommandLine class creates a comand line program that allows user interface that is accessed 
+through the terminal winder. 
+Main class instantiates the OrfFinder module from sequenceAnalysis.py and prints out ORF info.
 
 
 Program sequenceAnalysis.py is essentially a toolkit that inclues modules that are helpful
 in analysis of biological sequences, including DNA, RNA, and protein sequences. 
-Modules include:
-    OrfFinder: finds and stores open reading frames in a sequence.
-    NucParams: the module counts the number of nucleotides, codons, and amino acids of a given 
+    Modules include:
+        OrfFinder: finds and stores open reading frames in a sequence.
+        NucParams: the module counts the number of nucleotides, codons, and amino acids of a given 
         sequence and stores the information in respective dictionaries. 
-    ProteinParams: the module analyzes a given protein sequence, and returns the information.
-    FastAReader: the module opens and reads a FastA file.
+        ProteinParams: the module analyzes a given protein sequence, and returns the information.
+        FastAReader: the module opens and reads a FastA file.
