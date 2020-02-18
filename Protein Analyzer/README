@@ -1,0 +1,19 @@
+
+The program reads and calculates the physical-chemical properties of a user input
+protein sequence. The program will read in the protein sequence and print out the
+following: number of amino acids and total molecular weight, molar extinction 
+coefficient and mass extinction coefficient, theoretical isoelectric point (pI), 
+and amino acid composition.
+
+
+Example:
+    Input: VLSPADKTNVKAAW
+    Outpur: Number of Amino Acids: 14
+            Molecular Weight: 1499.7
+            molar Extinction coefficient: 5500.00
+            mass Extinction coefficient: 3.67
+            Theoretical pI: 9.88
+            Amino acid composition (in seperate lines): A = 21.43% C = 0.00% D = 7.14% 
+            E = 0.00% F = 0.00% G = 0.00% H = 0.00% I = 0.00% K = 14.29% L = 7.14% M = 0.00% 
+            N = 7.14% P = 7.14% Q = 0.00% R = 0.00% S = 7.14% T = 7.14%  V = 14.29% W = 7.14% 
+            Y = 0.00%
