@@ -1,0 +1,8 @@
+
+genomeAnalyzer.py program imports classes NucParams and FastAreader from sequencAnalysis module, 
+calculates and prints out the sequence length, G and C nucleotide content, and relative codon 
+frequency and codon count for each codon from a fastA file.
+
+Sequence length: total length of genome sequence (sum of all nucleotides). 
+GC content: number of G + C nucleotides divided by the total number of all nucleotides.
+Codon fequency: number of particular codon divided the number of amino acid of which the codon codes for.
