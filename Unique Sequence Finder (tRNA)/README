@@ -1,0 +1,8 @@
+
+Program findOrfs.py reads a file of fasta sequences from STDIN, finds the unique subsequences
+that occur in a single tRNA such that no members of this set occur among any of the other tRNA sets.
+Program includes methods find uniquetRNA, essentialtRNA, fastAreader, and main:
+    uniquetRNA: finds the unique tRNA sequences.
+    essentialtRNA: finds the essential tRNA sequences from the unique sequences.
+    fastAreader: reads a file of fasta sequences from STDIN.
+    main: prints out header, sequence, and essential sequences of each tRNA     
